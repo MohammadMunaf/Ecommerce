@@ -4,7 +4,7 @@ export const addToCart = (product) => {
             type: "CART_ADD_ITEM",
             payload: {
                 name: product.name,
-                image: product.images[2].url,
+                image: product.images[0],
                 price: product.price,
                 id: product._id
             }

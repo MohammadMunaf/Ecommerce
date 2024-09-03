@@ -201,7 +201,7 @@ export default function ProductList() {
                             <button onClick={() => arrangeData("d")} id='1999'><label><Checkbox for='1999' checked={Arrangedata === "d"} />1500-1999</label></button>
                             <button onClick={() => arrangeData("e")} id='2000'><label><Checkbox for='2000' checked={Arrangedata === "e"} />above 2000</label></button>
                         </div>
-                        <div className='catogory2' style={{ marginTop: '20px', textAlign: "left" }}>
+                        {/* <div className='catogory2' style={{ marginTop: '20px', textAlign: "left" }}>
                             <h2 style={{ fontSize: '26px' }}>Filter By Ratting</h2>
                             <button onClick={() => arrangeData("2")} id='2'><label><Checkbox for='2' checked={Arrangedata === "2"} />2 <StarIcon style={{ color: 'orange' ,marginBottom:'-6px'}} />
                                 <StarIcon style={{ color: 'orange' ,marginBottom:'-5px'}} /></label></button>
@@ -217,7 +217,7 @@ export default function ProductList() {
                                 <StarIcon style={{ color: 'orange',marginBottom:'-6px' }} />
                                 <StarIcon style={{ color: 'orange',marginBottom:'-6px' }} />
                                 <StarIcon style={{ color: 'orange' ,marginBottom:'-6px'}} /></span></label></button>
-                        </div>
+                        </div> */}
                     </div>
                     <div className='productList'>
                         <div>

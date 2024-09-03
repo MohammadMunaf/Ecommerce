@@ -38,7 +38,7 @@ export default function Cart() {
                         <h1 style={{ fontFamily: 'inherit' ,color:'rgb(29, 58, 81)'}}>{product.name}</h1>
                     </div>
                     <span className='quantity' style={{ width: '20%' }}>
-                        <p style={{ paddingRight: '15px', fontSize: '20px', }}>Quantity</p><Quantity />
+                        <p style={{ paddingRight: '15px', fontSize: '20px', }}>Quantity</p><Quantity/>
                     </span>
                     <div style={{ width: '10%' }}>
                         <Button onClick={() => handleRemove(product)} style={{ backgroundColor: 'rgb(29, 58, 81)', color: 'white', borderRadius: '0', width: '90%', height: '37px' }}>remove</Button>

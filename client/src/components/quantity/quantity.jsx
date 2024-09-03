@@ -14,7 +14,7 @@ export default function Quantity(){
         if(value>1){
             let q=value;
             q=q-1;
-            setVal(q);
+           setVal(q);
         }
     }
     return(

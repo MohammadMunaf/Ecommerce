@@ -9,10 +9,11 @@ import { baseUrl } from '../../Url';
 
 export default function NewArrival() {
     const [allproduct, setallproduct] = useState([]);
-    const fetchData = (value) => {
+    const fetchData =async(value) => {
         Axios.get(`${baseUrl}/products?q=${value}&l=${8}`)
             .then((response) => {
                 setallproduct(response.data);
+                console.log(response.data);
             })
             .catch((e) => {
                 console.error(`error-->${e}`);
