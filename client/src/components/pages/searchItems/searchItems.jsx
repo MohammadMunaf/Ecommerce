@@ -34,7 +34,7 @@ export default function ShowItems() {
                             <CardMedia
                                 component="img"
                                 sx={{ width: 252 }}
-                                image={product.images[0].url}
+                                image={product.images[0]}
                                 alt=""
                             />
                             </Link>
