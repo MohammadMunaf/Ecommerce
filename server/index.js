@@ -18,6 +18,7 @@ app.use(cors({
     origin: [
         'http://localhost:3000',
         'https://ecommerce-client-ivory-gamma.vercel.app',
+        'https://ecommerce-neon-seven-69.vercel.app',
     ]
 }));
 
