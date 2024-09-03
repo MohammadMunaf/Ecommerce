@@ -99,7 +99,6 @@ app.post('/upload', async (req, res) => {
 
 app.get('/search', async (req, res) => {
     const { q } = req.query;
-    console.log(q);
     let product = [];
     try {
         product = await items.find({ $or: [{ name: q }, { category: q }] });
