@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 export default function Featured() {
     const navigate = useNavigate();
     const handleClick = () => {
-        navigate('/show/665ab63d9ca136ca098d9fe6');
+        navigate('/show/66c820d38863fa10cc294ea5');
     }
     return (
         <div className='featuredCollections'>
